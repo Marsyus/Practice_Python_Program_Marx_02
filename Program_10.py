@@ -4,3 +4,6 @@ num_02 = int(input("Enter second number: "))
 while num_01 < num_02 - 1:
     num_01 += 1
     print(num_01)
+while num_01 > num_02 + 1:
+    num_01 -= 1
+    print(num_01)
